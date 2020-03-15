@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(96, 98, 99);
+}
+
+
+@media (max-width: 575.98px) { 
+    nav{
+        height: 5%;
+    }
+    .bgImage{
+        width: 100%;
+        opacity: 0.3;
+        position: sticky;
+    }
+    .bgImageDiv{
+        color: #999999;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -100;
+    }
+
+
+
+    #wrapper{
+        position: relative;
+        width: 100%;
+    }
+    .contentDiv{
+        text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
+        position: relative;
+        z-index: 100;
+   }
+   
+
+    footer{
+        max-height: 10%;
+    }
+
+ }
+@media (min-width: 575.98px) {
+  
+    nav{
+        height: 10%;
+    }
+    .bgImage{
+        opacity: 0.1;
+        width: 22%;
+    }
+    .bgImageDiv{
+        color: #999999;
+        top: 0;
+        left: 0;
+        z-index: -100;
+    }
+
+
+ }
+
